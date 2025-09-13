@@ -1,4 +1,4 @@
-# SASS-SCSS-
+
 1. Navigated to repository: cd alx-intermediate-frontend
 2. Created new directory: mkdir 0x03-sass_scss
 3. Installed nvm:
