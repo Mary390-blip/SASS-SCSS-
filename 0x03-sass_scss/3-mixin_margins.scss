@@ -1,0 +1,25 @@
+Define a mixin for horizontal margins
+@mixin margin-x($value) {
+  margin-left: $value;
+  margin-right: $value;
+}
+
+body {
+  @include margin-x(10px);
+}
+
+div {
+  @include margin-x(15px);
+}
+
+output
+
+body {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+div {
+  margin-left: 15px;
+  margin-right: 15px;
+}
