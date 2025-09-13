@@ -1,2 +1,10 @@
 # SASS-SCSS-
-This project is a practical introduction to SASS/SCSS, a powerful CSS preprocessor. The goal is to move beyond basic CSS by learning to use features that make stylesheets more maintainable, readable, and efficient.
+1. Navigated to repository: cd alx-intermediate-frontend
+2. Created new directory: mkdir 0x03-sass_scss
+3. Installed nvm:
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+4. Closed terminal and reopened
+5. Installed Node.js version 20.16.0: nvm install 20.16.0
+6. Installed SASS:
+   npm install sass -v 3.7.4
+
