@@ -27,4 +27,10 @@ Set the new Node version as the active version:
    sass --version
    # Output: 3.7.4
    
+guillaume@ubuntu:~/$ sass 0-debug_log.scss | head -n 0
+0-debug_log.scss:2 DEBUG: Hello world
+
+guillaume@ubuntu:~/$ 
+  @debug $your-variable;
+@debug "Hello world";
 
