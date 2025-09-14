@@ -34,3 +34,68 @@ guillaume@ubuntu:~/$
   @debug $your-variable;
 @debug "Hello world";
 
+$text-color: #3D3D3D;
+body {
+  color: $text-color;
+}
+
+p {
+  color: $text-color;
+  
+  application of variable to body and p
+  
+}
+body {
+  color: #3D3D3D;
+}
+
+p {
+  color: #3D3D3D;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+
+  p {
+    margin: 10px;
+  }
+}
+
+output
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body p {
+  margin: 10px;
+}
+
+Define a mixin for horizontal margins
+@mixin margin-x($value) {
+  margin-left: $value;
+  margin-right: $value;
+}
+
+body {
+  @include margin-x(10px);
+}
+
+div {
+  @include margin-x(15px);
+}
+
+output
+
+body {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+div {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
